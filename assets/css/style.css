@@ -1,0 +1,188 @@
+/* ======================
+        Generals
+========================*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../font/Open_Sans/static/OpenSans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Frederica";
+    src: url("../font/Fredericka_the_Great/FrederickatheGreat-Regular.ttf");
+}
+
+/* ======================
+        Header
+========================*/
+
+header {
+    background-image: url("../img/hero_bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+
+header h1 {
+    padding-left: 100px;
+    padding-top: 20px;
+    font-family: "Frederica";
+}
+
+header article {
+    width: 240px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 275px;
+    margin-bottom: 275px;
+}
+
+header article h2 {
+    font-family: "Frederica";
+    margin-bottom: 20px;
+}
+
+header article p {
+    font-family: "Open Sans";
+    margin-bottom: 30px;
+}
+
+header article a {
+    font-family: "Open Sans";
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header article a:hover {
+    color: #000000;
+    background-color: #fff;
+}
+
+header nav {
+    text-align: right;
+    padding-right: 60px;
+    padding-bottom: 30px;
+}
+
+header nav a {
+    font-family: "Open Sans";
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* ======================
+        Main
+========================*/
+
+main article {
+    width: 502px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+main article h2 {
+    font-family: "Frederica";
+    margin-bottom: 50px;
+}
+
+main article .main__info_text {
+    font-family: "Open Sans";
+    margin-bottom: 50px;
+}
+
+main article div {
+    border: 4px double #000000;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+main article div p {
+    font-family: "Open Sans";
+    margin-bottom: 10px;
+}
+
+main article div a {
+    font-family: "Open Sans";
+    color: #000000;
+    text-decoration: none;
+}
+
+main article div a:hover {
+    text-decoration: underline;
+}
+
+/* ======================
+        Footer
+========================*/
+
+footer {
+    background-color: #3A3B4A;
+    font-family: "Open Sans";
+}
+
+footer article {
+    color: #ffffff;
+    width: 680px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+footer article p {
+    margin-bottom: 20px;
+}
+
+footer article a {
+    color: white;
+    border: 1px solid #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+footer article a:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+footer nav {
+    text-align: right;
+}
+
+footer nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
